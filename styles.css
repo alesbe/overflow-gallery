@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+body {
+    font-family: 'Climate Crisis', cursive;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Title */
+.title {
+    position: absolute;
+    font-size: 3em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#gallery {
+    position: relative;
+    height: 150vmax;
+    width: 150vmax;
+}
+
+/* = Cards = */
+.card {
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+}
+
+.card > img {
+    opacity: 0%;
+    transition: 0.2s ease;
+}
+
+.card:hover > img {
+    opacity: 100%;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+/* Top row */
+.card:nth-child(1) {
+    height: 10%;
+    width: 15%;
+    top: 1%;
+    left: 3%;
+    background-color: #c7edc5;
+}
+
+.card:nth-child(2) {
+    height: 10%;
+    width: 7%;
+    top: 19%;
+    left: 68%;
+    background-color: #c5e8ed;
+}
+
+.card:nth-child(3) {
+    height: 10%;
+    width: 7%;
+    top: 15%;
+    left: 15%;
+    background-color: #edc5ca;
+}
+
+.card:nth-child(4) {
+    height: 12%;
+    width: 7%;
+    top: 7%;
+    left: 28%;
+    background-color: #e8c5ed;
+}
+
+.card:nth-child(5) {
+    height: 5%;
+    width: 15%;
+    top: 1%;
+    left: 43%;
+    background-color: #edeac5;
+}
+
+.card:nth-child(6) {
+    height: 7%;
+    width: 10%;
+    top: 15%;
+    left: 49%;
+    background-color: #c5c6ed;
+}
+
+.card:nth-child(7) {
+    height: 10%;
+    width: 15%;
+    top: 4%;
+    left: 67%;
+    background-color: #c5edca;
+}
+
+/* Bottom row */
+.card:nth-child(8) {
+    height: 10%;
+    width: 15%;
+    bottom: 4%;
+    right: 80%;
+    background-color: #d7c5ed;
+}
+
+.card:nth-child(9) {
+    height: 10%;
+    width: 15%;
+    bottom: 1%;
+    right: 3%;
+    background-color: #c5edec;
+}
+
+.card:nth-child(10) {
+    height: 10%;
+    width: 7%;
+    bottom: 19%;
+    right: 68%;
+    background-color: #e7c5ed;
+}
+
+.card:nth-child(11) {
+    height: 10%;
+    width: 7%;
+    bottom: 15%;
+    right: 15%;
+    background-color: #ecedc5;
+}
+
+.card:nth-child(12) {
+    height: 12%;
+    width: 7%;
+    bottom: 7%;
+    right: 28%;
+    background-color: #c5edd3;
+}
+
+.card:nth-child(13) {
+    height: 5%;
+    width: 15%;
+    bottom: 1%;
+    right: 43%;
+    background-color: #edc5c8;
+}
+
+.card:nth-child(14) {
+    height: 7%;
+    width: 10%;
+    bottom: 15%;
+    right: 49%;
+    background-color: #ede2c5;
+}
+
+.card:nth-child(15) {
+    height: 10%;
+    width: 12%;
+    bottom: 2%;
+    right: 61%;
+    background-color: #e5c5ed;
+}
+
+/* Middle row */
+
+.card:nth-child(16) {
+    height: 10%;
+    width: 17%;
+    top:32%;
+    left: 5%;
+    background-color: #edddc5;
+}
+
+.card:nth-child(17) {
+    height: 10%;
+    width: 7%;
+    top: 47%;
+    left: 4%;
+    background-color: #c8c5ed;
+}
+
+.card:nth-child(18) {
+    height: 8%;
+    width: 15%;
+    top: 58%;
+    left: 15%;
+    background-color: #edc5ea;
+}
+
+.card:nth-child(19) {
+    height: 15%;
+    width: 5%;
+    top: 52%;
+    left: 35%;
+    background-color: #c5dfed;
+}
+
+.card:nth-child(20) {
+    height: 7%;
+    width: 10%;
+    top: 47%;
+    left: 23%;
+    background-color: #edc5d3;
+}
+
+.card:nth-child(21) {
+    height: 10%;
+    width: 17%;
+    top: 26%;
+    left: 35%;
+    background-color: #c5edd9;
+}
+
+.card:nth-child(22) {
+    height: 10%;
+    width: 12%;
+    top: 42%;
+    left: 44%;
+    background-color: #c9c5ed;
+}
+
+.card:nth-child(23) {
+    height: 12%;
+    width: 18%;
+    top: 58%;
+    left: 50%;
+    background-color: #e7edc5;
+}
+
+.card:nth-child(24) {
+    height: 10%;
+    width: 15%;
+    top: 68%;
+    left: 6%;
+    background-color: #c5d2ed;
+}
+
+.card:nth-child(25) {
+    height: 7%;
+    width: 10%;
+    top: 35%;
+    left: 60%;
+    background-color: #d7c5ed;
+}
+
+.card:nth-child(26) {
+    height: 10%;
+    width: 17%;
+    top:50%;
+    left: 75%;
+    background-color: #cfedc5;
+}
+
+.card:nth-child(27) {
+    height: 16%;
+    width: 12%;
+    top: 30%;
+    left: 84%;
+    background-color: #edd6c5;
+}
+
+.card:nth-child(28) {
+    height: 8%;
+    width: 15%;
+    top: 58%;
+    left: 15%;
+    background-color: #edd6c5;
+}
+
+.card:nth-child(29) {
+    height: 15%;
+    width: 5%;
+    top: 52%;
+    left: 35%;
+    background-color: #eac5ed;
+}
+
+.card:nth-child(30) {
+    height: 7%;
+    width: 10%;
+    top: 47%;
+    left: 23%;
+    background-color: #c5ceed;
+}
